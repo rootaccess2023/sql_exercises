@@ -1,0 +1,4 @@
+PRAGMA table_info(Album)
+SELECT COUNT(DISTINCT Title) FROM Album
+
+SELECT COUNT(DISTINCT ArtistId) FROM Album
