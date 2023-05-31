@@ -1,0 +1,3 @@
+SELECT Total
+FROM Invoice
+WHERE Total BETWEEN 10 AND 20;
